@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="MIT"
+
+[[mods]]
+modId="thirdhand"
+version="${version}"
+displayName="Third Hand"
+description='''Adds a third hand in which the player can only carry andesite and its variants. The item hangs above the screen, like the off-hand.'''
+authors="Example"
+displayURL="https://example.com"
+
+[[dependencies.thirdhand]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.thirdhand]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${mc_version_range}"
+    ordering="NONE"
+    side="BOTH"
